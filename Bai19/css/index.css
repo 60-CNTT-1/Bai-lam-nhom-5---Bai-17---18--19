@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background: #DCDCDC;
+}
+
+#container {
+    background-color: #7b859a;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* Header ------------------------------------------ */
+header {
+    width: 100%;
+    height: 10vh;
+    box-sizing: border-box;
+    background-color: #d2d6d0;
+    float: left;
+}
+
+/* Nav ------------------------------------------ */
+nav {
+    width: 70%;
+    height: 15vh;
+    box-sizing: border-box;
+    background-color: #212930;
+    float: right;
+}
+
+#_nav_1 {
+    height: 5vh;
+    background-color: #0b86f1;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 75%;
+}
+
+#_nav_2 {
+    height: 10vh;
+    background-color: #052a79;
+}
+/* Aside ------------------------------------------ */
+aside{
+	width: 30%;
+	height: 80vh;
+	box-sizing: border-box;
+    background: #4f5559;
+	float: left;
+}
+/* Aside 1----------*/
+#_aside_1{
+    height: 20vh;
+    box-sizing: border-box;
+    background-color: #e98f08;
+    padding: 10px 20px;
+}
+
+._a_1_button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+/* Aside 2----------*/
+#_aside_2{
+    height: 20vh;
+    background-color: #774a07;
+}
+
+/* Aside 3----------*/
+#_aside_3{
+    height: 40vh;
+    background-color: #aa8c5e;
+}
+
+/* Section ------------------------------------------ */
+section {
+	width: 70%;
+	height: 65vh;
+	box-sizing: border-box;
+    background-color: #7b859a;
+	float: right;
+}
+
+#_section_1 {
+    width: 70%;
+    height: 65vh;
+    background-color: #20cc7c;
+    float: left;
+}
+
+#_section_2 {
+    width: 30%;
+    height: 65vh;
+    background-color: #075728;
+    float: right;
+}
+
+/* Footer ------------------------------------------ */
+footer {
+    width: 100%;
+    height: 10vh;
+    box-sizing: border-box;
+    background-color:#212930;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
