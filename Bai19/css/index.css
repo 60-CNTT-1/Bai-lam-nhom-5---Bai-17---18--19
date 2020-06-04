@@ -32,16 +32,30 @@ nav {
 }
 
 #_nav_1 {
-    height: 5vh;
-    background-color: #0b86f1;
+    width: 100%;
+    height: 7.5vh;
+    background-color: #868f98;
     box-sizing: border-box;
-    padding-top: 10px;
-    padding-left: 75%;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+#_nav_1 #_time {
+    float: right;
+    color: #ffffff;
 }
 
 #_nav_2 {
-    height: 10vh;
-    background-color: #052a79;
+    height: 7.5vh;
+    background-color: #606a74;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+#_nav_2 table {
+    font-size: auto;
+    color: #ffffff;
+    float: right;
 }
 /* Aside ------------------------------------------ */
 aside{
@@ -53,13 +67,38 @@ aside{
 }
 /* Aside 1----------*/
 #_aside_1{
-    height: 20vh;
+    height: 25vh;
     box-sizing: border-box;
-    background-color: #e98f08;
-    padding: 10px 20px;
+    background-color: #a8adb4;
+    padding: 10px 30px;
 }
 
 ._a_1_button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#_aside_1 #_button {
+    padding-left: 25px;
+    width: auto;
+}
+/* Aside 2----------*/
+#_aside_2{
+    height: 15vh;
+    background-color: #868f98;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+#_aside_2 #_search {
     background-color: #555555;
     border: none;
     color: white;
@@ -69,18 +108,13 @@ aside{
     display: inline-block;
     font-size: 10px;
     cursor: pointer;
-  }
-
-/* Aside 2----------*/
-#_aside_2{
-    height: 20vh;
-    background-color: #774a07;
 }
-
 /* Aside 3----------*/
 #_aside_3{
     height: 40vh;
-    background-color: #aa8c5e;
+    background-color: #606a74;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 /* Section ------------------------------------------ */
@@ -93,17 +127,22 @@ section {
 }
 
 #_section_1 {
-    width: 70%;
+    width: 60%;
     height: 65vh;
-    background-color: #20cc7c;
+    background-color: #ffffff;
     float: left;
 }
 
 #_section_2 {
-    width: 30%;
+    width: 40%;
     height: 65vh;
-    background-color: #075728;
+    background-color: #868f98;
     float: right;
+    overflow: auto;
+}
+
+#_section_2 ul {
+    margin-left: 20px;
 }
 
 /* Footer ------------------------------------------ */

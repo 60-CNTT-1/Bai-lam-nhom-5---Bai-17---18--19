@@ -11,7 +11,7 @@ function startTime() {
     
     var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-    document.getElementById('_nav_1').innerHTML =
+    document.getElementById('_time').innerHTML =
     h + ":" + min + ":" + s + " " + " " + days[d] + " "+ months[mon] + " "+ y;
     var t = setTimeout(startTime, 500);
     }
