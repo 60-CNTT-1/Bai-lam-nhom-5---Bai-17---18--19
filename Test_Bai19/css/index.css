@@ -62,10 +62,13 @@ nav {
 }
 
 #_nav_2 table {
-    font-size: auto;
-    color: #ffffff;
+	font-size: 25px;
+	text-decoration: none;
+    color: #55BDE9;
     float: right;
 }
+
+
 /* Aside ------------------------------------------ */
 aside{
 	width: 30%;
