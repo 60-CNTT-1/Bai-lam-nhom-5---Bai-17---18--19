@@ -20,6 +20,15 @@ header {
     box-sizing: border-box;
     background-color: #d2d6d0;
     float: left;
+	background: url("../multi/banner2.jpg");
+	background-repeat: repeat-x;
+}
+#banner{
+	text-align: center;
+	font-size: 40px;
+	margin: 20px auto;
+	color: #20008F;
+	
 }
 
 /* Nav ------------------------------------------ */
@@ -151,6 +160,7 @@ footer {
     height: 10vh;
     box-sizing: border-box;
     background-color:#212930;
+	color: aqua;
     text-align: center;
     padding: 20px;
     float: left;
