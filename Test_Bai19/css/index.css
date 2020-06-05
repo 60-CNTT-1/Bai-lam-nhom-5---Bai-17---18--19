@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background: #DCDCDC;
+}
+
+#container {
+    background-color: #7b859a;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* Header ------------------------------------------ */
+header {
+    width: 100%;
+    height: 10vh;
+    box-sizing: border-box;
+    background-color: #d2d6d0;
+    float: left;
+	background: url("../multi/banner2.jpg");
+	background-repeat: repeat-x;
+}
+#banner{
+	text-align: center;
+	font-size: 40px;
+	margin: 20px auto;
+	color: #20008F;
+	
+}
+
+/* Nav ------------------------------------------ */
+nav {
+    width: 70%;
+    height: 15vh;
+    box-sizing: border-box;
+    background-color: #212930;
+    float: right;
+}
+
+#_nav_1 {
+    width: 100%;
+    height: 7.5vh;
+    background-color: #868f98;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+#_nav_1 #_time {
+    float: right;
+    color: #ffffff;
+}
+
+#_nav_2 {
+    height: 7.5vh;
+    background-color: #606a74;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+#_nav_2 table {
+    font-size: auto;
+    color: #ffffff;
+    float: right;
+}
+/* Aside ------------------------------------------ */
+aside{
+	width: 30%;
+	height: 80vh;
+	box-sizing: border-box;
+    background: #4f5559;
+	float: left;
+}
+/* Aside 1----------*/
+#_aside_1{
+    height: 25vh;
+    box-sizing: border-box;
+    background-color: #a8adb4;
+    padding: 10px 30px;
+}
+
+._a_1_button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#_aside_1 #_button {
+    padding-left: 25px;
+    width: auto;
+}
+/* Aside 2----------*/
+#_aside_2{
+    height: 15vh;
+    background-color: #868f98;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+#_aside_2 #_search {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+}
+/* Aside 3----------*/
+#_aside_3{
+    height: 40vh;
+    background-color: #606a74;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* Section ------------------------------------------ */
+section {
+	width: 70%;
+	height: 65vh;
+	box-sizing: border-box;
+    background-color: #7b859a;
+	float: right;
+}
+
+#_section_1 {
+    width: 60%;
+    height: 65vh;
+    background-color: #ffffff;
+    float: left;
+}
+
+#_section_2 {
+    width: 40%;
+    height: 65vh;
+    background-color: #868f98;
+    float: right;
+    overflow: auto;
+}
+
+#_section_2 ul {
+    margin-left: 20px;
+}
+
+/* Footer ------------------------------------------ */
+footer {
+    width: 100%;
+    height: 10vh;
+    box-sizing: border-box;
+    background-color:#212930;
+	color: aqua;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
