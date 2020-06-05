@@ -153,6 +153,10 @@ section {
 #_section_2 ul {
     margin-left: 20px;
 }
+#_content{
+	width: 99%;
+	height: 99%;
+}
 
 /* Footer ------------------------------------------ */
 footer {
