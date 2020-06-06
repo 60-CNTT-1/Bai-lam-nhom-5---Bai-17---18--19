@@ -1,0 +1,11 @@
+#_section_1 img {
+    width: 100px;
+    height: auto;
+    padding-right: 10px;
+    float: left;
+}
+
+#_section_1 #_contentBook {
+    text-align: justify;
+    font-family: 'Calibri';
+}
