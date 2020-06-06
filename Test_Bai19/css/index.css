@@ -59,15 +59,17 @@ nav {
     background-color: #606a74;
     padding-top: 15px;
     padding-right: 10px;
+	
 }
 
 #_nav_2 table {
 	font-size: 25px;
-	text-decoration: none;
     color: #55BDE9;
     float: right;
 }
-
+a{
+	text-decoration: none;
+}
 
 /* Aside ------------------------------------------ */
 aside{
@@ -126,7 +128,9 @@ aside{
     height: 40vh;
     background-color: #606a74;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 30px;
+	font-size: 20px;
+	
 }
 
 /* Section ------------------------------------------ */
