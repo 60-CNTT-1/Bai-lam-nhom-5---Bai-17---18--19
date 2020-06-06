@@ -23,13 +23,6 @@ header {
 	background: url("../multi/banner2.jpg");
 	background-repeat: repeat-x;
 }
-#banner{
-	text-align: center;
-	font-size: 40px;
-	margin: 20px auto;
-	color: #20008F;
-	
-}
 
 header #_intro {
     text-align: center;
@@ -168,8 +161,11 @@ footer {
     height: 10vh;
     box-sizing: border-box;
     background-color:#212930;
-	color: aqua;
-    text-align: center;
-    padding: 20px;
+    padding: 10px;
     float: left;
+
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font-family: berlin sans;
 }
