@@ -59,16 +59,34 @@ nav {
     background-color: #606a74;
     padding-top: 15px;
     padding-right: 10px;
-	
+}
+ul{
+	list-style-type: none;
+	margin: 5px;
+	padding: 0;
+	overflow: hidden;
+	font-size: 25px;
+	float: left;
+}
+li{
+	display: inline;
+	border-right: 2px solid #bbb;
 }
 
-#_nav_2 table {
+/*#_nav_2 table {
 	font-size: 25px;
     color: #55BDE9;
     float: right;
-}
+}*/
 a{
 	text-decoration: none;
+	color: #0A005F;
+	padding: 10px;
+}
+a:hover{
+	color: aqua;
+	background-color: #313030;
+	transition: 1s;
 }
 
 /* Aside ------------------------------------------ */
@@ -129,8 +147,7 @@ aside{
     background-color: #606a74;
     box-sizing: border-box;
     padding: 30px;
-	font-size: 20px;
-	
+	font-size: 25px;
 }
 
 /* Section ------------------------------------------ */
@@ -157,8 +174,10 @@ section {
     overflow: auto;
 }
 
-#_section_2 ul {
+#_section_2 dl {
     margin-left: 20px;
+	font-size: 20px;
+	line-height: 30px;
 }
 #_content{
 	width: 99%;
@@ -175,4 +194,14 @@ footer {
     text-align: center;
     padding: 20px;
     float: left;
+}
+/*Best Seller HTML--------------------------------------*/
+._img1{
+	width: 100px;
+	height: 150px;
+	float: left;
+	margin: 5px;
+}
+._book1{
+	margin: 20px;
 }
