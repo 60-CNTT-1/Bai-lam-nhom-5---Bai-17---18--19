@@ -1,0 +1,34 @@
+#phai{
+	float: right;
+}
+#logo{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 10px;
+	border-width:1px;
+	padding:3px;
+	max-width:100%
+}
+#dam{
+	color:#FFFFFF;
+	font-weight: bold;
+	
+}
+#td1{
+border: 1px solid #D8D8D8;
+border-collapse: collapse;
+background:#827E7F;
+width:100%;
+}
+#td2{
+border: 1px solid #D8D8D8;
+border-collapse: collapse;
+width:100%;
+}
+p{
+	color:#A4A4A4;
+}
+a{
+	text-decoration:none;
+}
