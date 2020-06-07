@@ -1,14 +1,16 @@
 @charset "utf-8";
 /* Header */
-body{
+* {
+    margin: 0;
+    padding: 0;
 }
 img{
 	height:100px;
 }
 #body{
+	margin: 0 auto;
+	width: 90%;
 	font-size:20px;
-	margin: 10px 500px;
-	padding: 0;
 	border: 1px gray solid;
 }
 a{
@@ -108,7 +110,7 @@ section nav > div:first-of-type p{
 }
 section nav div:nth-of-type(2){
 	clear: both;
-	boder:1px black solid;
+	border:1px black solid;
 	background:#E5E1E1;
 	text-align: center;
 }
