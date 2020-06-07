@@ -129,8 +129,7 @@ aside{
     background-color: #606a74;
     box-sizing: border-box;
     padding: 30px;
-	font-size: 20px;
-	
+	font-size: 25px;
 }
 
 /* Section ------------------------------------------ */
@@ -175,4 +174,14 @@ footer {
     text-align: center;
     padding: 20px;
     float: left;
+}
+/*Best Seller HTML--------------------------------------*/
+._img1{
+	width: 100px;
+	height: 150px;
+	float: left;
+	margin: 5px;
+}
+._book1{
+	margin: 20px;
 }
