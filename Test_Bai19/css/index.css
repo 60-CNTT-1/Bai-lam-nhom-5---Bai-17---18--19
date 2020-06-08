@@ -203,5 +203,6 @@ footer {
 	margin: 5px;
 }
 ._book1{
-	margin: 20px;
+    margin: 20px;
+    text-align: justify;
 }
