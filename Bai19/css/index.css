@@ -52,7 +52,7 @@ nav {
 #_nav_1 #_time {
     float: right;
     font-size: 20px;
-     color: #F75400;
+    color: #212930;
 }
 
 #_nav_2 {
@@ -64,11 +64,9 @@ nav {
 }
 ul{
 	list-style-type: none;
-	margin: 5px;
-	padding: 0;
 	overflow: hidden;
 	font-size: 25px;
-	float: left;
+	float: right;
 }
 li{
 	display: inline;
@@ -208,10 +206,10 @@ footer {
 }
 /*Best Seller HTML and Discount Books-----------------------*/
 ._img1{
-	width: 100px;
-	height: 150px;
+	width: 150px;
+	height: auto;
 	float: left;
-	margin: 5px;
+	padding: 20px;
 }
 ._book1{
     margin: 20px;
