@@ -148,7 +148,7 @@ aside{
     box-sizing: border-box;
     padding: 30px 0px 30px 0px;
 	font-size: 25px;
-	overflow: hidden;
+	overflow: auto;
 }
 ._a_3{
 	display: block;
