@@ -18,7 +18,6 @@ header {
     width: 100%;
     height: 10vh;
     box-sizing: border-box;
-    padding: 20px;
     float: left;
 	background: url("../multi/banner2.jpg");
 	background-repeat: repeat-x;
@@ -27,6 +26,9 @@ header {
 header #_intro {
     text-align: center;
     font-family: berlin sans;
+	font-size: 45px;
+	margin: 20px auto;
+	color: #00ABFF;
 }
 
 /* Nav ------------------------------------------ */
@@ -41,7 +43,7 @@ nav {
 #_nav_1 {
     width: 100%;
     height: 7.5vh;
-    background-color: #1c1c1c;
+    background: linear-gradient(to top, #868f98,#FCFCFC);
     box-sizing: border-box;
     padding-top: 15px;
     padding-right: 10px;
@@ -50,21 +52,39 @@ nav {
 #_nav_1 #_time {
     float: right;
     font-size: 20px;
-    color: #bb000e;
+     color: #F75400;
 }
 
 #_nav_2 {
     height: 7.5vh;
-    background-color: #606a74;
+    background: linear-gradient(to bottom, #606a74,#8FB5E7 );
     padding-top: 15px;
     padding-right: 10px;
+	overflow: hidden;
+}
+ul{
+	list-style-type: none;
+	margin: 5px;
+	padding: 0;
+	overflow: hidden;
+	font-size: 25px;
+	float: left;
+}
+li{
+	display: inline;
+	border-right: 2px solid #bbb;
+}
+a{
+	text-decoration: none;
+	color: #0A005F;
+	padding: 10px;
+}
+a:hover{
+	color: aqua;
+	background-color: #313030;
+	transition: 1s;
 }
 
-#_nav_2 table {
-    font-size: auto;
-    color: #ffffff;
-    float: right;
-}
 /* Aside ------------------------------------------ */
 aside{
 	width: 30%;
@@ -77,13 +97,14 @@ aside{
 #_aside_1{
     height: 25vh;
     box-sizing: border-box;
-    background-color: #a8adb4;
+    background: linear-gradient(to top,#a8adb4,#FCFCFC);
     padding: 10px 30px;
+	overflow: hidden;
 }
 
 ._a_1_button {
-    background-color: #555555;
-    border: none;
+	background: linear-gradient(to right, #57BAD8,#0A00FD);
+    border: 1px solid #64A2D5;
     color: white;
     padding: 10px;
     text-align: center;
@@ -91,6 +112,8 @@ aside{
     display: inline-block;
     font-size: 15px;
     cursor: pointer;
+	border-radius: 15px;
+	box-sizing: border-box;
 }
 
 #_aside_1 #_button {
@@ -100,31 +123,41 @@ aside{
 /* Aside 2----------*/
 #_aside_2{
     height: 15vh;
-    background-color: #868f98;
+    background: linear-gradient(to bottom,#868f98,#B1AFAF);
     box-sizing: border-box;
     padding: 10px;
 }
 
 
 #_aside_2 #_search {
-    background-color: #555555;
-    border: none;
+    background: linear-gradient(to right, #6998DF,#D637DB);
+    border: 1px solid #64A2D5;
     color: white;
     padding: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 10px;
+    font-size: 15px;
     cursor: pointer;
+	box-sizing: border-box;
+	border-radius: 15px;
 }
 /* Aside 3----------*/
 #_aside_3{
     height: 40vh;
-    background-color: #606a74;
+    color: #C9C9C9;
+	background: linear-gradient(to bottom,#606a74,#C9C9C9);
     box-sizing: border-box;
-    padding: 20px;
+    padding: 30px 0px 30px 0px;
+	font-size: 25px;
+	overflow: hidden;
 }
-
+._a_3{
+	display: block;
+	font-size: 25px;
+	line-height: 30px;
+	text-indent: 30px;
+}
 /* Section ------------------------------------------ */
 section {
 	width: 70%;
@@ -138,22 +171,25 @@ section {
     width: 60%;
     height: 65vh;
     background-color: #ffffff;
-    padding: 10px;
     box-sizing: border-box;
     float: left;
-    overflow: auto;
 }
 
 #_section_2 {
     width: 40%;
     height: 65vh;
-    background-color: #868f98;
+    background: linear-gradient(to bottom, #868f98, #8BD9D1);
     float: right;
     overflow: auto;
 }
-
-#_section_2 ul {
-    margin-left: 20px;
+._s_2{
+	display: block;
+	font-size: 20px;
+	line-height: 25px;
+}
+#_content{
+	width: 99%;
+	height: 99%;
 }
 
 /* Footer ------------------------------------------ */
@@ -161,25 +197,23 @@ footer {
     width: 100%;
     height: 10vh;
     box-sizing: border-box;
-    background-color:#212930;
-    padding: 10px;
+    background: linear-gradient(to bottom,#212930,#D89BF0 );
+    padding: 20px;
     float: left;
-
-    color: #ffffff;
+    color: #C4E6EB;
     text-align: center;
     font-size: 15px;
     font-family: berlin sans;
+	overflow: hidden;
 }
-
-
-/* link controller */
-a{
-	text-decoration: none;
-	color: #0A005F;
-	padding: 0px;
+/*Best Seller HTML and Discount Books-----------------------*/
+._img1{
+	width: 100px;
+	height: 150px;
+	float: left;
+	margin: 5px;
 }
-a:hover{
-	color: #42d117;
-	background-color: #313030;
-	transition: 1s;
+._book1{
+    margin: 20px;
+    text-align: justify;
 }
